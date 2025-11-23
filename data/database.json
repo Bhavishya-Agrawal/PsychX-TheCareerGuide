@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "email": "rahul@example.com",
+      "role": "USER",
+      "tier": "STANDARD",
+      "currentClass": "12th"
+    },
+    {
+      "id": "u2",
+      "firstName": "Priya",
+      "lastName": "Singh",
+      "email": "priya@example.com",
+      "role": "USER",
+      "tier": "FREE",
+      "currentClass": "10th"
+    },
+    {
+      "id": "a1",
+      "firstName": "System",
+      "lastName": "Admin",
+      "email": "admin@pathfinder.ai",
+      "role": "ADMIN",
+      "currentClass": ""
+    },
+    {
+      "id": "c1",
+      "firstName": "Dr. Amit",
+      "lastName": "Patel",
+      "email": "amit@expert.com",
+      "role": "CONSULTANT",
+      "currentClass": ""
+    },
+    {
+      "id": "c2",
+      "firstName": "Sarah",
+      "lastName": "Khan",
+      "email": "sarah@expert.com",
+      "role": "CONSULTANT",
+      "currentClass": ""
+    }
+  ],
+  "sessions": [
+    {
+      "id": "s1",
+      "studentId": "u1",
+      "studentName": "Rahul Sharma",
+      "consultantId": "c1",
+      "consultantName": "Dr. Amit Patel",
+      "date": "2025-11-23",
+      "time": "10:00",
+      "status": "Scheduled"
+    }
+  ],
+  "availability": [
+    {
+      "consultantId": "c1",
+      "days": ["Monday", "Wednesday", "Friday"],
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    {
+      "consultantId": "c2",
+      "days": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "10:00",
+      "endTime": "18:00"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "1",
+      "category": "General",
+      "question": "How does the career assessment work?",
+      "answer": "Our assessment uses a multi-stage adaptive process. We start with broad interest categories, then drill down into specific skills, and finally assess psychological fit.",
+      "status": "answered"
+    },
+    {
+      "id": "2",
+      "category": "Billing",
+      "question": "Can I upgrade my plan later?",
+      "answer": "Yes, you can upgrade from Free to Standard at any time.",
+      "status": "answered"
+    },
+    {
+      "id": "3",
+      "category": "Technical",
+      "question": "How is my data stored?",
+      "answer": "Your data is stored locally in your browser and also synced to our JSON database for persistence. All sensitive information is encrypted.",
+      "status": "answered"
+    },
+    {
+      "id": "4",
+      "category": "General",
+      "question": "What makes PathFinder AI different from other career platforms?",
+      "answer": "PathFinder AI uses advanced AI to provide brutally honest feedback, adapts to your learning pace, and verifies your progress through weekly quizzes. It's not just assessment - it's accountability.",
+      "status": "answered"
+    }
+  ],
+  "assessments": [],
+  "roadmaps": [],
+  "progress": []
+}

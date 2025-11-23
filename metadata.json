@@ -1,0 +1,8 @@
+{
+  "name": "PathFinder AI - Career Counseling",
+  "description": "A multi-tier, AI-powered career counseling platform with specialized portals for users, admins, and consultants. Features personalized assessments, brutal reality checks, and dynamic roadmaps.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
