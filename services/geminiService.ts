@@ -1,7 +1,8 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { AssessmentProfile, CareerRecommendation, RoadmapStep, CareerCategory, Answer, Question, WeeklyPlan, WeeklyTask, QuizQuestion, WeeklyQuiz } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
+const ai = new GoogleGenAI({ apiKey });
 
 // --- Schemas ---
 
